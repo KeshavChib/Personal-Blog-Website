@@ -1,0 +1,32 @@
+
+<%- include('partials/header'); -%>
+
+<h1>Compose</h1>
+
+<form  action="/compose" method="post">
+    <div class="form-group">
+        <label class="form-label" for="title">Title</label>
+        <input class="form-control" type="text" id="title" name="postTitle">
+    </div>
+    <div class="form-group">
+        <label class="form-label" for="post" >Post</label>
+        <textarea class="form-control" type="text" id="post" name="postContent" rows="5" ></textarea>
+    </div>
+    <input class="btn btn-primary" type="submit" value="publish">
+</form>
+
+<%- include('partials/footer'); -%>
+
+<!-- </div>
+<div class="footer-padding"></div>
+  <div class="footer" style="position: absolute;">
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-solid fa-envelope"></i>
+    <p>© Copyright 2022 TinDog</p>
+    <p>Made with ❤️ by Keshav and Kapil</p>
+  </div>
+</div>
+</body>
+</html> -->
